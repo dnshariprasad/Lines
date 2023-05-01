@@ -1,5 +1,5 @@
 # Lines
 
-###Architecture : MVVM
-###Libraries : Hilt, Coroutines, Retrofit
+### Architecture : MVVM
+### Libraries : Hilt, Coroutines, Retrofit
 

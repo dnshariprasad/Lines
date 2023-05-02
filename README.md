@@ -1,5 +1,5 @@
 # Lines
 
 ### Architecture : MVVM
-### Libraries : Hilt, Coroutines, Retrofit
+### Libraries : [Hilt](https://dnshariprasad.medium.com/hilt-8db7291a468c), Coroutines, Retrofit
 

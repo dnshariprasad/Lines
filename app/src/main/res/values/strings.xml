@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Lines</string>
+    <string name="not_loaded_yet">Not loaded yet..</string>
+    <string name="get_line">Get Line</string>
 </resources>

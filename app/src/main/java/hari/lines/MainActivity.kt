@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
 
         //create view model
         viewModel = ViewModelProvider(this)[MainViewModel::class.java]
-        viewModel.data.observe(this) {
+        viewModel.line.observe(this) {
             findViewById<TextView>(R.id.textTv).text = it.title
         }
         //I want data (ask ViewModel)

@@ -7,7 +7,7 @@ import javax.inject.Inject
 
 class LineRepo @Inject constructor(val api: Api) {
     private val _line = MutableLiveData<Line>()
-    val data get() = _line
+    val line get() = _line
 
     // ViewModel requested data
     // Getting form server

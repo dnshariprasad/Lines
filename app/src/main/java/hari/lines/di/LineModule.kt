@@ -10,9 +10,9 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import javax.inject.Singleton
 
-@InstallIn(SingletonComponent::class)
 @Module
-class NetworkModule {
+@InstallIn(SingletonComponent::class)
+class LineModule {
     @Singleton
     @Provides
     fun providesRetrofit(): Retrofit.Builder {
@@ -22,7 +22,7 @@ class NetworkModule {
 
     @Singleton
     @Provides
-    fun providesDataAPI(retrofitBuilder: Retrofit.Builder): Api {
+    fun providesLineAPI(retrofitBuilder: Retrofit.Builder): Api {
         return retrofitBuilder.build().create(Api::class.java)
     }
 }

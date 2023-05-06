@@ -2,7 +2,7 @@ package hari.lines.model
 
 import com.google.gson.annotations.SerializedName
 
-class Data(
+class Line(
     @SerializedName("id") val id: String,
     @SerializedName("userId") val userId: String,
     @SerializedName("title") val title: String,

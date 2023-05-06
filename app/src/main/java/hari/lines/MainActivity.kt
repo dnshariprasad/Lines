@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         }
         //I want data (ask ViewModel)
         findViewById<TextView>(R.id.getDataBtn).setOnClickListener {
-            viewModel.getData()
+            viewModel.getLines()
         }
     }
 }

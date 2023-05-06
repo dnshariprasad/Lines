@@ -12,6 +12,8 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        //create view model
         viewModel = ViewModelProvider(this)[MainViewModel::class.java]
         viewModel.data.observe(this) {
             findViewById<TextView>(R.id.textTv).text = it.title

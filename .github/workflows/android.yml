@@ -25,9 +25,5 @@ jobs:
     - name: Build with Gradle
       run: ./gradlew build
 
-    - name: APK Build action
-      uses: MayMeow/apk-build/action@v1
-      with:
-        android-compile-sdk: "30"
-        android-build-tools: "30.0.2"
-        android-sdk-tools: "6514223"
+    - name: Build debug APK
+      run: ./gradlew assembleDebug

@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         viewModel.line.observe(this) {
             findViewById<TextView>(R.id.textTv).text = it.title
         }
-        //I want data (ask ViewModel)
+        //I want data (asking ViewModel)
         findViewById<TextView>(R.id.getDataBtn).setOnClickListener {
             viewModel.getLines()
         }
